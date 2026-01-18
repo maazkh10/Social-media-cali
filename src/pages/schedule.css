@@ -1,0 +1,33 @@
+.shedule-main{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.shedule-container{
+    /* background-color: aquamarine; */
+    /* padding: 50px 20px 50px 10px; */
+    margin: 30px 30px 50px 80px  ;
+    
+    height: 700px;
+    width: 90vw;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+}
+.shedule-left{
+    padding: 20px;
+    width: 35%;
+    overflow: hidden;
+    border-radius: 30px;
+    /* background-color: blueviolet; */
+   /* outline: 2px; */
+   border: 2px solid black;
+}
+.shedule-right{
+    padding: 20px;
+    border-radius: 30px;
+    /* background-color: brown; */
+    width: 65%;
+    border: 2px solid black;
+}
+

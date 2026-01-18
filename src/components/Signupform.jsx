@@ -74,7 +74,7 @@ onChange={(e)=> setAvatar(e.target.files[0]?.name)}
 />
 
 
-<input type="url"
+<input type="url" 
 value={insta}
 onChange={(e)=> setInsta(e.target.value)}
 placeholder='Instagram Url u would like to add' />

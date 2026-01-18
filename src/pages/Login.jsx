@@ -30,8 +30,6 @@ const [ Sign , setSign] = useState(false)
         
       <h3>{Sign ? "Create Account" : "Welcome back"}</h3>
         <p className='sub-text'>{Sign ? "Start managing your social media" : "Pls login with ur email"}</p>
-         
-
          {/* form toggle  */}
          {Sign ? <Signupform />  : <LoginForm />}
 
